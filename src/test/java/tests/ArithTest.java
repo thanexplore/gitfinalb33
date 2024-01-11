@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ArithTest {
@@ -8,5 +9,7 @@ public class ArithTest {
     @Test
     public void test(){
         System.out.println("test");
+
+        Assert.assertTrue(false, "this is a test message");
     }
 }
